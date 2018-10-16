@@ -9,7 +9,8 @@ void calculate_the_maximum(int n, int k) {
   //Write your code here.
     int max_and=0,max_or=0,max_xor=0;
     
-        if(n>k)
+        if(n>=k)// if we don't made equal sign we found in test case if the inputs 5 5
+          
     {
         for(int i=1;i<n;i++)
         {
