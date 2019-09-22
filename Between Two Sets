@@ -31,13 +31,14 @@ int gcd(int a,int b)
 
     }
     reminder=Numerator%Denominator;
-    while(remainder!=0)
+   
+    while(reminder!=0)
     {   Numerator=Denominator;
         Denominator=reminder;
         reminder=Numerator%Denominator;
     }
-    res=remainder;
-return res;
+    
+return Numerator;
 }
 
 int lcm(int a,int b)
@@ -62,7 +63,7 @@ for(i=1;i<b_count;i++)
 //so made loop from LCM to GCD and check about these two conditon
 for(i=LCM_ARR_A,j=2;i<=GCD_ARR_B;i=LCM_ARR_A*j)
 {j++;
-if(GCD_ARR_B%i)
+if(GCD_ARR_B%i==0)
 count++;
 
 }
@@ -85,7 +86,11 @@ int main()
    for (i = 0; i < b_count; i++) {
      scanf("%d", &arrayb[i]);
    }
+
    res= getTotalX(a_count, arraya, b_count, arrayb);
+
+   
+
 printf("%d",res);
    return 0;
 }
