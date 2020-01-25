@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1568122507 source:e:\iti39\embedded sessions\questions_valeo\interview_answer_codes\drawingbook\main.c
+	<assert.h>
+	<limits.h>
+	<math.h>
+	<stdbool.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

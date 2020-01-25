@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1572891010 source:e:\iti39\embedded sessions\questions_valeo\problemsolving\closetnumber\main.c
+	<assert.h>
+	<limits.h>
+	<math.h>
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
