@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1578739234 source:e:\github\challamges_hacker_rank-\maxxor\main.c
+	<assert.h>
+	<limits.h>
+	<math.h>
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
