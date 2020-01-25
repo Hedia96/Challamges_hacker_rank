@@ -1,0 +1,26 @@
+Q.1: this statment define size right in all casese
+define SIZE(parray) (sizeof(parray)/sizeof(*parray))
+true or false?
+when array is dynamic 
+always the result is 2 sizepointer/size int
+unlike if the argument is an array
+***********************************************
+A.1
+
+#define SIZE(parray) (sizeof(parray)/sizeof(*parray))
+int main()
+{
+    // or in stack
+    //int arr[]={1,2,3};
+  //dynamiclly 
+    /*
+    int* arr=(int*)malloc(3*sizeof(int));
+arr[0]=1;
+arr[1]=2;
+arr[2]=2;
+*/
+    printf("%d",SIZE(arr));
+
+    return 0;
+}
+---------------------------------------------------------------------------------------------------------------------------------
